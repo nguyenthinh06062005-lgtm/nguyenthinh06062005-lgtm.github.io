@@ -35,7 +35,7 @@ Dự án này là thành quả của quá trình nghiên cứu về cách xử l
 - **Công nghệ sử dụng:** Arduino Uno, Cảm biến LM35, Định dạng dữ liệu JSON, C# Windows Forms.
 - **Điểm nổi bật:** Dữ liệu được đóng gói chuẩn JSON để đảm bảo tính minh bạch khi truyền qua Serial, giúp ứng dụng trên PC hiển thị biểu đồ trực quan và chính xác.
 
-👉 [**Xem mã nguồn dự án trên GitHub**](https://github.com/nguyenthinh06062005-lgtm/Arduino_LM35_TempMonitor)
+👉 [**Xem mã nguồn dự án trên GitHub**](https://github.com/coldbrewtonic22/Arduino_LM35_TempMonitor)
 
 ---
 
