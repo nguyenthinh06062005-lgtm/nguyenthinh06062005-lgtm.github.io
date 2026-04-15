@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "vi-VN"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Nguyễn Quốc Thịnh / Site Title"
 title_separator          : "-"
@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "bio-photo-2"
+  avatar           : "/images/thinh.jpg"
   name             : "Nguyễn Quốc Thịnh"
   pronouns         : # example: "she/her"  
   bio              : "Đam mê với lập trình nhúng"

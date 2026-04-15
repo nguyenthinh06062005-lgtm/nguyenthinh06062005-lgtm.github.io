@@ -1,23 +1,33 @@
 ---
-title: "Hệ thống giám sát nhiệt độ đa kênh LM35"
-excerpt: "Dự án sử dụng Arduino để đọc dữ liệu nhiệt độ từ 3 cảm biến LM35, chuẩn hóa dữ liệu đầu ra định dạng JSON và quản lý mã nguồn bằng Git."
-collection: portfolio
+title: "Hệ thống Giám sát Nhiệt độ Đa điểm (Arduino )"
+excerpt: "Giải pháp thu thập và trực quan hóa dữ liệu nhiệt độ thời gian thực sử dụng cảm biến LM35 và đóng gói dữ liệu JSON chuyên nghiệp."
+header:
+  teaser: /images/arduino-project-teaser.png
 ---
 
-## 📝 Tổng quan dự án
-Dự án tập trung vào việc thu thập và xử lý tín hiệu tương tự (Analog) từ các cảm biến nhiệt độ LM35 phổ biến, sau đó chuyển đổi sang độ C và truyền dữ liệu lên máy tính thông qua giao tiếp Serial.
+## 📑 Tổng quan dự án
+Dự án này tập trung vào việc xây dựng một hệ thống IoT hoàn chỉnh từ tầng thiết bị (Edge) đến tầng ứng dụng (Application). Mục tiêu cốt lõi là giải quyết bài toán thu thập dữ liệu Analog từ nhiều nguồn (3 cảm biến LM35) và truyền tải lên máy tính một cách toàn vẹn, minh bạch.
 
-## 🛠️ Công nghệ sử dụng
-* **Phần cứng:** Arduino Uno R3, 3 cảm biến LM35.
-* **Ngôn ngữ:** C++.
-* **Quản trị mã nguồn:** Git/GitHub.
-* **Định dạng dữ liệu:** JSON.
+## 🛠️ Giải pháp Kỹ thuật
 
-## 💡 Các tính năng chính
-1. **Đọc dữ liệu đa kênh:** Sử dụng các chân ADC (A0, A1, A2) để theo dõi nhiệt độ tại 3 vị trí khác nhau đồng thời.
-2. **Chuẩn hóa dữ liệu:** Thay vì gửi các dòng text thô, hệ thống đóng gói dữ liệu vào định dạng **JSON**, giúp dễ dàng tích hợp với các ứng dụng IoT khác.
-3. **Quản lý phiên bản:** Toàn bộ quá trình phát triển được kiểm soát chặt chẽ bằng Git, thực hiện đầy đủ các thao tác Commit, Branching và xử lý Merge Conflict.
+### 1. Tầng thiết bị & Nhúng (Firmware)
+* **Xử lý tín hiệu:** Sử dụng thuật toán đọc mảng và tính toán giá trị trung bình để giảm thiểu sai số nhiễu từ cổng ADC của Arduino.
+* **Đóng gói dữ liệu:** Thay vì truyền chuỗi văn bản thuần túy, tôi đã áp dụng cấu trúc **JSON** (JavaScript Object Notation). Việc này giúp dữ liệu có cấu trúc rõ ràng, dễ dàng mở rộng thêm cảm biến mà không cần sửa đổi giao thức truyền nhận.
 
-## 🔗 Liên kết dự án
-Bạn có thể xem chi tiết mã nguồn tại đây:
-[Link Repository Arduino LM35](https://github.com/nguyenthinh06062005-lgtm/Arduino_LM35_TempMonitor)
+### 2. Tầng ứng dụng (PC App)
+* **Ngôn ngữ:** Phát triển trên nền tảng C# Windows Forms.
+* **Hiển thị:** Tích hợp thư viện **ZedGraph** để vẽ đồ thị thời gian thực cho cả 3 kênh nhiệt độ đồng thời, giúp người dùng theo dõi biến động nhiệt độ một cách trực quan nhất.
+
+### 3. Quy trình quản lý (Git Workflow)
+* Tuân thủ quy trình làm việc nhóm chuyên nghiệp: Tách nhánh (Branching), xử lý xung đột (Conflict Resolution) và sử dụng **Atomic Commits** để quản lý lịch sử mã nguồn.
+
+---
+
+## 📊 Thông số Kỹ thuật chính
+* **Hardware:** Arduino Uno R3, 03 x LM35 Sensor.
+* **Communication:** Serial (UART) - Baudrate 9600.
+* **Format:** JSON Structured Data.
+
+🔗 [**Khám phá chi tiết mã nguồn trên GitHub**](https://github.com/nguyenthinh06062005-lgtm/Arduino_LM35_TempMonitor)
+
+---

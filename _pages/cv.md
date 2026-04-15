@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,40 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## 🎓 Học vấn
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**Học viện Công nghệ Bưu chính Viễn thông (PTIT)**
+* **Chuyên ngành:** Internet of Things (IoT)
+* **Thời gian:** 2023 - Nay
+* **Điểm trung bình (GPA):** Đang cập nhật...
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+---
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## 💻 Kỹ năng kỹ thuật
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+| Nhóm kỹ năng | Công cụ / Công nghệ | Mức độ |
+| :--- | :--- | :--- |
+| **Ngôn ngữ lập trình** | C/C++ (Arduino, ESP-IDF), Python, C# | Khá |
+| **Phần cứng & Vi điều khiển** | ESP32, Arduino UNO, STM32 | Khá |
+| **Giao thức truyền thông** | UART, SPI, I2C, Serial, JSON | Tốt |
+| **Công cụ & Quản lý dự án** | Git/GitHub, VS Code, Proteus | Tốt |
+
+---
+
+## 🚀 Dự án thực tế
+
+### 🌡️ Arduino LM35 Temperature Monitor
+* **Vai trò:** Developer chính.
+* **Mô tả:** Hệ thống giám sát nhiệt độ đa kênh, thu thập dữ liệu từ cảm biến LM35, đóng gói JSON và truyền dữ liệu thời gian thực lên ứng dụng máy tính.
+* **Công nghệ:** C++, C# WinForms, Git/GitHub.
+
+### 🔍 S.A.F.E Vision (Dự án nghiên cứu)
+* **Vai trò:** Thành viên kỹ thuật.
+* **Mô tả:** Hệ thống phát hiện người trong xe tự động sử dụng cảm biến thông minh.
+* **Công nghệ:** Python, ESP32, AI Edge.
+
+---
+
+## 🏆 Chứng chỉ & Thành tựu
+* **Chứng chỉ:** Hoàn thành khóa học Quản lý phiên bản mã nguồn với Git/GitHub (PTIT).
+* **Hoạt động:** Thành viên tích cực tại các Lab nghiên cứu về Hệ thống nhúng.

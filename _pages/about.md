@@ -1,30 +1,48 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Giới thiệu về Nguyễn Quốc Thịnh"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# 👋 Xin chào, tôi là Nguyễn Quốc Thịnh
+# Xin chào, tôi là Nguyễn Quốc Thịnh! 👋
 
-Chào mừng bạn đến với trang hồ sơ năng lực cá nhân của tôi. Tôi là sinh viên chuyên ngành **Lập trình Nhúng và IoT** tại **Học viện Công nghệ Bưu chính Viễn thông (PTIT)**. Với tư duy kỹ thuật và niềm đam mê công nghệ, tôi tập trung vào việc nghiên cứu và phát triển các hệ thống thông minh kết hợp giữa phần cứng và phần mềm.
+Tôi là sinh viên năm thứ 3 chuyên ngành **Internet of Things (IoT)** tại **Học viện Công nghệ Bưu chính Viễn thông (PTIT)**. 
 
-## 🎓 Học vấn & Chuyên môn
-* **Trường:** Học viện Công nghệ Bưu chính Viễn thông (PTIT).
-* **Ngành học:**  Lập trình Nhúng & IoT.
-* **Lĩnh vực quan tâm:** * Thiết kế và lập trình vi điều khiển (MCU) như Arduino, ESP32, STM32.
-    * Nghiên cứu các giao thức truyền thông IoT (MQTT, HTTP).
-    * Thiết kế mạch in (PCB Design) và tối ưu hóa hệ thống nhúng.
-    * Quản trị mã nguồn và quy trình làm việc chuyên nghiệp với Git/GitHub.
-
-## 🚀 Dự án tiêu biểu: Hệ thống giám sát nhiệt độ LM35
-Đây là dự án thực hành trọng tâm giúp tôi áp dụng các kiến thức đã học vào thực tế:
-* **Mô tả:** Hệ thống thu thập dữ liệu nhiệt độ đa kênh từ 3 cảm biến LM35 đồng thời.
-* **Kỹ thuật nổi bật:** * Chuyển đổi tín hiệu tương tự (Analog) sang số (Digital) với độ chính xác cao.
-    * Đóng gói dữ liệu theo định dạng **JSON** (`{"channel": "A0", "temp": 30.5}`) giúp chuẩn hóa dữ liệu đầu ra.
-* **Quản trị mã nguồn:** Thực hiện toàn bộ quy trình trên Git CLI, xử lý thành công các xung đột mã nguồn (Merge Conflict) để đảm bảo tính toàn vẹn của dự án khi phát triển tính năng mới.
+Với niềm đam mê trong lĩnh vực điện tử và lập trình vi điều khiển, tôi luôn nỗ lực tìm kiếm những giải pháp tối ưu để kết nối thế giới thực vào không gian số. Tôi tin rằng sự kết hợp giữa phần cứng linh hoạt và phần mềm thông minh là chìa khóa để tạo ra những thay đổi tích cực cho cuộc sống.
 
 ---
-*Tôi luôn cởi mở với những cơ hội hợp tác và học hỏi. Hãy kết nối với tôi qua các thông tin liên hệ ở bên trái trang web!*
+
+## 🎓 Thông tin học vấn
+* **Trường:** Học viện Công nghệ Bưu chính Viễn thông (PTIT)
+* **Chuyên ngành:** Internet of Things (IoT)
+* **Niên khóa:** 2023 - 2027 (Dự kiến)
+
+## 🎯 Lĩnh vực quan tâm
+- **Hệ thống nhúng (Embedded Systems):** Nghiên cứu sâu về kiến trúc vi điều khiển (Arduino, ESP32, STM32).
+- **Mạng cảm biến không dây (WSN):** Thiết kế các hệ thống thu thập dữ liệu đa điểm.
+- **Tối ưu hóa mã nguồn:** Viết code sạch, hiệu quả và tiết kiệm năng lượng cho thiết bị đầu cuối.
+
+---
+
+## 🚀 Dự án tiêu biểu: Arduino LM35 Temperature Monitor
+
+Dự án này là thành quả của quá trình nghiên cứu về cách xử lý tín hiệu Analog và truyền thông máy tính.
+
+- **Mục tiêu:** Xây dựng hệ thống giám sát nhiệt độ đa kênh thời gian thực.
+- **Công nghệ sử dụng:** Arduino Uno, Cảm biến LM35, Định dạng dữ liệu JSON, C# Windows Forms.
+- **Điểm nổi bật:** Dữ liệu được đóng gói chuẩn JSON để đảm bảo tính minh bạch khi truyền qua Serial, giúp ứng dụng trên PC hiển thị biểu đồ trực quan và chính xác.
+
+👉 [**Xem mã nguồn dự án trên GitHub**](https://github.com/nguyenthinh06062005-lgtm/Arduino_LM35_TempMonitor)
+
+---
+
+## 📫 Kết nối với tôi
+Nếu bạn quan tâm đến các dự án IoT hoặc muốn trao đổi về kỹ thuật nhúng, đừng ngần ngại kết nối:
+- **GitHub:** [nguyenthinh06062005-lgtm](https://github.com/nguyenthinh06062005-lgtm)
+- **Email:** nguyenthinh06062005@gmail.com
+
+---
+*Cảm ơn bạn đã dành thời gian ghé thăm trang Portfolio cá nhân của tôi!*
