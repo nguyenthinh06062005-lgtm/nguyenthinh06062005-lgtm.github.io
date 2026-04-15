@@ -28,6 +28,6 @@ Dự án này tập trung vào việc xây dựng một hệ thống IoT hoàn c
 * **Communication:** Serial (UART) - Baudrate 9600.
 * **Format:** JSON Structured Data.
 
-🔗 [**Khám phá chi tiết mã nguồn trên GitHub**](hhttps://github.com/coldbrewtonic22/Arduino_LM35_TempMonitor)
+🔗 [**Khám phá chi tiết mã nguồn trên GitHub**](https://github.com/coldbrewtonic22/Arduino_LM35_TempMonitor)
 
 ---
